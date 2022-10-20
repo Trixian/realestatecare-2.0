@@ -1,22 +1,30 @@
 <template>
-  <v-footer dark padless>
+  <v-footer color="grey" padless>
     <v-card class="flex" flat tile>
-      <v-card-title class="teal">
-        <strong class="subheading"
-          >Get connected with us on social networks!</strong
-        >
-
-        <v-spacer></v-spacer>
-
-        <v-btn v-for="icon in icons" :key="icon" class="mx-4" dark icon>
-          <v-icon size="24px">
-            {{ icon }}
-          </v-icon>
-        </v-btn>
+      <v-card-title>
+        <v-tabs v-model="tab" grow dark background-color="white">
+          <v-tab
+            v-for="icon in icons"
+            :key="icon"
+            class="mx-15"
+            style="teal"
+            dark
+            icon
+          >
+            <v-icon size="24px" class="teal--text">
+              {{ icon }}
+            </v-icon>
+          </v-tab>
+        </v-tabs>
       </v-card-title>
 
-      <v-card-text class="py-2 white--text text-center">
-        {{ new Date().getFullYear() }} — <strong>Vuetify</strong>
+      <v-card-text class="py-2 text-center">
+        <strong>
+          <v-footer-title class="text-uppercase teal--text">
+            <span class="font-weight-light">RealEstate</span>
+            <span>Care</span>
+          </v-footer-title>
+        </strong>
       </v-card-text>
     </v-card>
   </v-footer>
