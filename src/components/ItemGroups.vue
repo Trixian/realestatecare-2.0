@@ -1,7 +1,7 @@
 <template>
-  <v-container style="padding: 56px 0 0" class="center">
-    <div class="col col-6">
-      <v-card v-sheet class="d-flex justify-space-between mb-6 pa-12">
+  <v-container class="d-flex justify-content-center" style="padding: 56px 0 0">
+    <div class="col">
+      <v-card v-sheet class="d-flex justify-content-center mb-2 pa-12">
         <v-list-item three-line>
           <v-list-item-content>
             <v-list-item-title class="text-8">
@@ -18,8 +18,8 @@
       </v-card>
     </div>
     <!-- Einde item -->
-    <div class="col col-6">
-      <v-card v-sheet class="d-flex justify-space-between mb-6 pa-12">
+    <div class="col">
+      <v-card v-sheet class="d-flex justify-content-center mb-2 pa-12">
         <v-list-item three-line>
           <v-list-item-content>
             <v-list-item-title class="text-8">
@@ -37,8 +37,8 @@
       </v-card>
     </div>
     <!-- Einde item -->
-    <div class="col col-6">
-      <v-card v-sheet class="d-flex justify-space-between mb-6 pa-12">
+    <div class="col">
+      <v-card v-sheet class="d-flex justify-space-between mb-2 pa-12">
         <v-list-item three-line>
           <v-list-item-content>
             <v-list-item-title class="text-8"> Kennisbase </v-list-item-title>
@@ -53,8 +53,8 @@
       </v-card>
     </div>
     <!-- Einde item -->
-    <div class="col col-6">
-      <v-card v-sheet class="d-flex justify-space-between mb-6 pa-12">
+    <div class="col">
+      <v-card v-sheet class="d-flex justify-content-center mb-2 pa-12">
         <v-list-item three-line>
           <v-list-item-content>
             <v-list-item-title class="text-8"> Beheer </v-list-item-title>
