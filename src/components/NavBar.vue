@@ -19,13 +19,13 @@
             <v-icon
               v-bind="attrs"
               v-on="on"
-              size="24px"
+              size="3em"
               class="teal--text"
               background-color="transparent"
               left
               padding="1em"
             >
-              mdi-menu</v-icon
+              mdi-home-group</v-icon
             >
           </template>
 
@@ -103,7 +103,7 @@
         <v-icon color="white">mdi-magnify</v-icon>
       </v-btn>
       <v-btn icon>
-        <v-icon color="white">mdi-heart</v-icon>
+        <v-icon color="white">mdi-cog</v-icon>
       </v-btn>
     </v-app-bar>
     <v-sheet id="scrolling-techniques-7" class="overflow-y-auto">
